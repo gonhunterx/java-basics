@@ -6,10 +6,13 @@ class Main {
 
         String name = new String("jadon");
         System.out.println(name);
-        
-        
-        
-        
+
+    
         System.out.println("Hello World");
+        greet(name);
+    }
+
+    public static void greet(String name) {
+        System.out.println("hello " + name + "!");
     }
 }
